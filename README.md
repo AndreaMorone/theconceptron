@@ -6,7 +6,7 @@ gcc -o opp opp_bandwidth.c -lm -O3
 Per lanciare il codice utilizzare:
 ./opp <grafo.txt> <float p>
 
-<grafo.txt> è il file che contiene il tuo grafo (in formato matrice di adiacenza, non lista). Prova con ~ 100 nodi, ma dovrebbe funzionare fino a N~ 1000. 
+<grafo.txt> è il file che contiene il tuo grafo (in formato matrice di adiacenza, non lista). Prova con ~ 100 nodi, ma dovrebbe funzionare fino a N ~ 1000. 
  
 <float p> è un valore tra 0 e 1 che misura la larghezza della banda del clustering. Metti 0.5 per cominciare. 
 
