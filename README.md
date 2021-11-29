@@ -1,8 +1,9 @@
-# theconceptron
-per compilare al solito:
+# The Conceptron
+
+Per compilare il codice utilizzare:
 gcc -o opp opp_bandwidth.c -lm -O3
 
-Per runnare:
+Per lanciare il codice utilizzare:
 ./opp <grafo.txt> <float p>
 
 <grafo.txt> è il file che contiene il tuo grafo (in formato matrice di adiacenza, non lista). Prova con ~100 nodi, ma dovrebbe funzionare fino a N~1000. 
