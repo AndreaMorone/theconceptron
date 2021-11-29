@@ -1,4 +1,4 @@
-# The Conceptron
+# The Conceptron by Flaviano Morone
 
 Per compilare il codice utilizzare:
 gcc -o opp opp_bandwidth.c -lm -O3
